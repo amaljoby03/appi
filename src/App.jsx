@@ -1,12 +1,13 @@
+import NameInput from "./components/NameInput";
+import SaveButton from "./components/SaveButton";
 
 function App() {
   return (
     <>
-    <p>
-      hola skibidi
-      </p>
+      <NameInput />
+      <SaveButton />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
