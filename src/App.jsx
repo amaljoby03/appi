@@ -6,7 +6,7 @@ function App() {
   }
 
   function ShowPopup() {
-    alert("Hola!");
+    alert(`Hola!, ${name}`);
   }
 
   // const sum = addtwonumbers(4,5)
