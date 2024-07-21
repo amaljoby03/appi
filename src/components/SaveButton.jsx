@@ -1,5 +1,9 @@
 function SaveButton() {
-  return <button>Save</button>;
+  function ShowPopup() {
+    alert("Hola!");
+  }
+
+  return <button onClick={ShowPopup}>Save</button>;
 }
 
 export default SaveButton;
