@@ -1,9 +1,5 @@
 function Button() {
-  return (
-    <button>
-       positive aura
-     </button>
-  )
+  return <button>positive aura</button>;
 }
 
-export default Button
+export default Button;
