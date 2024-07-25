@@ -1,20 +1,21 @@
 import { useState } from "react";
 
+// App Component
 function App() {
+  const [name, setName] = useState("Amal");
+
   function UpdateName(event) {
     setName(event.target.value);
+    console.log(event.target.value);
   }
 
   function ShowPopup() {
     alert(`Hola!, ${name}`);
   }
 
-  // const sum = addtwonumbers(4,5)
-  const [name, setName] = useState("John");
-
   return (
     <>
-      <p> Current name:{name} </p>
+      <p>Current name:{name}</p>
       <p>Please enter your Name:</p>
       <input type="text" onChange={UpdateName}></input>
       <button onClick={ShowPopup}>Save</button>
