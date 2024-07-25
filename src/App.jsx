@@ -23,7 +23,7 @@ function App() {
           onChange={UpdateName}
         ></input>
         <button
-          className="bg-blue-500 text-white px-6 py-3 font-semibold rounded-full"
+          className="bg-blue-500 text-white px-6 py-3 font-semibold rounded-full hover:bg-blue-600 active:bg-blue-700"
           onClick={ShowPopup}
         >
           Save
