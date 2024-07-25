@@ -14,12 +14,12 @@ function App() {
   }
 
   return (
-    <div className="flex justify-center min-h-screen items-center">
+    <main className="flex justify-center min-h-screen items-center dark:bg-black dark:text-white">
       <div className="h-full flex flex-col gap-5 items-center">
         <h1 className="text-4xl font-bold sm:text-6xl md:text-8xl lg:text-9xl">Name-inator</h1>
         <p className="md:text-2xl lg:text-4xl">Please enter your Name:</p>
         <input
-          className="outline outline-2 px-2 py-1 rounded-lg"
+          className="outline outline-2 px-2 py-1 rounded-lg dark:text-black"
           type="text"
           onChange={UpdateName}
         ></input>
@@ -30,7 +30,7 @@ function App() {
           Save
         </button>
       </div>
-    </div>
+    </main>
   );
 }
 
