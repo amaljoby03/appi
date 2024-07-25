@@ -15,6 +15,7 @@ function App() {
 
   return (
     <>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <p>Current name:{name}</p>
       <p>Please enter your Name:</p>
       <input type="text" onChange={UpdateName}></input>
