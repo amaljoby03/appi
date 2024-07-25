@@ -16,9 +16,9 @@ function App() {
   return (
     <div className="flex justify-center min-h-screen items-center">
       <div className="h-full flex flex-col gap-5 items-center">
-        <p >Please enter your Name:</p>
+        <p className="text-lg font-medium">Please enter your Name:</p>
         <input
-          className="outline outline-2"
+          className="outline outline-2 px-2 py-1 rounded-lg"
           type="text"
           onChange={UpdateName}
         ></input>
