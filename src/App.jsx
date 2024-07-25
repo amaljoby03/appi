@@ -16,7 +16,8 @@ function App() {
   return (
     <div className="flex justify-center min-h-screen items-center">
       <div className="h-full flex flex-col gap-5 items-center">
-        <p className="text-lg font-medium">Please enter your Name:</p>
+        <h1 className="text-4xl font-bold sm:text-6xl md:text-8xl lg:text-9xl">Name-inator</h1>
+        <p className="md:text-2xl lg:text-4xl">Please enter your Name:</p>
         <input
           className="outline outline-2 px-2 py-1 rounded-lg"
           type="text"
