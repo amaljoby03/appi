@@ -14,13 +14,22 @@ function App() {
   }
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <p>Current name:{name}</p>
-      <p>Please enter your Name:</p>
-      <input type="text" onChange={UpdateName}></input>
-      <button onClick={ShowPopup}>Save</button>
-    </>
+    <div className="flex justify-center min-h-screen items-center">
+      <div className="h-full flex flex-col gap-5 items-center">
+        <p >Please enter your Name:</p>
+        <input
+          className="outline outline-2"
+          type="text"
+          onChange={UpdateName}
+        ></input>
+        <button
+          className="bg-blue-500 text-white px-6 py-3 font-semibold rounded-full"
+          onClick={ShowPopup}
+        >
+          Save
+        </button>
+      </div>
+    </div>
   );
 }
 
